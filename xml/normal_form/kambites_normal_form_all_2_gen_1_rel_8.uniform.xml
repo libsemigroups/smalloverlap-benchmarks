@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catch name="bench_kambites" filters="[normal_form][n=8][uniform]">
+  <Group name="bench_kambites">
+    <TestCase name="Normal form for all 2-generated 1-relation monoids (max. word length = 8) uniform random" tags="[n=8][normal_form][uniform]" filename="benchmarks/bench-kambites.cpp" line="773">
+      <BenchmarkResults name="10" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.68798e+07">
+        <!--All values in nano seconds-->
+        <mean value="289811" lowerBound="285111" upperBound="295605" ci="0.95"/>
+        <standardDeviation value="26416.8" lowerBound="21699" upperBound="35147.4" ci="0.95"/>
+        <outliers variance="0.75885" lowMild="0" lowSevere="0" highMild="1" highSevere="1"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="14" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.78638e+07">
+        <!--All values in nano seconds-->
+        <mean value="288579" lowerBound="284800" upperBound="292507" ci="0.95"/>
+        <standardDeviation value="19711.6" lowerBound="17572" upperBound="22653.7" ci="0.95"/>
+        <outliers variance="0.635851" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="18" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.96578e+07">
+        <!--All values in nano seconds-->
+        <mean value="292086" lowerBound="287961" upperBound="296608" ci="0.95"/>
+        <standardDeviation value="22068.2" lowerBound="19220.5" upperBound="27321.5" ci="0.95"/>
+        <outliers variance="0.686588" lowMild="0" lowSevere="0" highMild="1" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="22" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.68236e+07">
+        <!--All values in nano seconds-->
+        <mean value="287944" lowerBound="284858" upperBound="291201" ci="0.95"/>
+        <standardDeviation value="16116.7" lowerBound="14313.3" upperBound="18617.8" ci="0.95"/>
+        <outliers variance="0.534913" lowMild="0" lowSevere="0" highMild="2" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="26" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.8455e+07">
+        <!--All values in nano seconds-->
+        <mean value="290324" lowerBound="286358" upperBound="294752" ci="0.95"/>
+        <standardDeviation value="21353.5" lowerBound="18610" upperBound="25700.1" ci="0.95"/>
+        <outliers variance="0.666644" lowMild="0" lowSevere="0" highMild="2" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="30" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.68348e+07">
+        <!--All values in nano seconds-->
+        <mean value="291540" lowerBound="288209" upperBound="295080" ci="0.95"/>
+        <standardDeviation value="17450.6" lowerBound="15534.6" upperBound="19952.6" ci="0.95"/>
+        <outliers variance="0.574819" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="34" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.81157e+07">
+        <!--All values in nano seconds-->
+        <mean value="293647" lowerBound="289469" upperBound="298196" ci="0.95"/>
+        <standardDeviation value="22048.1" lowerBound="19396.4" upperBound="25345.8" ci="0.95"/>
+        <outliers variance="0.676804" lowMild="0" lowSevere="0" highMild="1" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="38" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.66091e+07">
+        <!--All values in nano seconds-->
+        <mean value="288230" lowerBound="284310" upperBound="292372" ci="0.95"/>
+        <standardDeviation value="20532.5" lowerBound="18204.8" upperBound="23393.7" ci="0.95"/>
+        <outliers variance="0.656178" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="42" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.66113e+07">
+        <!--All values in nano seconds-->
+        <mean value="285842" lowerBound="281587" upperBound="290499" ci="0.95"/>
+        <standardDeviation value="22754.8" lowerBound="19996.7" upperBound="27032.7" ci="0.95"/>
+        <outliers variance="0.707218" lowMild="0" lowSevere="0" highMild="2" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="46" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.72682e+07">
+        <!--All values in nano seconds-->
+        <mean value="289819" lowerBound="285648" upperBound="294726" ci="0.95"/>
+        <standardDeviation value="23001.4" lowerBound="19394" upperBound="29962.3" ci="0.95"/>
+        <outliers variance="0.70714" lowMild="0" lowSevere="0" highMild="2" highSevere="1"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="50" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.73233e+07">
+        <!--All values in nano seconds-->
+        <mean value="291936" lowerBound="288227" upperBound="295844" ci="0.95"/>
+        <standardDeviation value="19383.6" lowerBound="17111.3" upperBound="22073" ci="0.95"/>
+        <outliers variance="0.625483" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="54" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.58341e+07">
+        <!--All values in nano seconds-->
+        <mean value="290788" lowerBound="287068" upperBound="294967" ci="0.95"/>
+        <standardDeviation value="20088.2" lowerBound="17245.3" upperBound="24829.4" ci="0.95"/>
+        <outliers variance="0.645738" lowMild="0" lowSevere="0" highMild="3" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="58" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.89784e+07">
+        <!--All values in nano seconds-->
+        <mean value="291311" lowerBound="287379" upperBound="295514" ci="0.95"/>
+        <standardDeviation value="20615.8" lowerBound="18081.7" upperBound="24268.4" ci="0.95"/>
+        <outliers variance="0.655995" lowMild="1" lowSevere="0" highMild="2" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="62" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.83988e+07">
+        <!--All values in nano seconds-->
+        <mean value="294414" lowerBound="290474" upperBound="298705" ci="0.95"/>
+        <standardDeviation value="20942.1" lowerBound="18659.2" upperBound="23647.8" ci="0.95"/>
+        <outliers variance="0.656137" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="66" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="3.11694e+07">
+        <!--All values in nano seconds-->
+        <mean value="293009" lowerBound="289228" upperBound="297071" ci="0.95"/>
+        <standardDeviation value="19933.1" lowerBound="17656" upperBound="23073.9" ci="0.95"/>
+        <outliers variance="0.635735" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="70" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.40002e+07">
+        <!--All values in nano seconds-->
+        <mean value="290892" lowerBound="286694" upperBound="295324" ci="0.95"/>
+        <standardDeviation value="21961" lowerBound="19433.5" upperBound="25159.7" ci="0.95"/>
+        <outliers variance="0.686567" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="74" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.86337e+07">
+        <!--All values in nano seconds-->
+        <mean value="289395" lowerBound="285440" upperBound="293647" ci="0.95"/>
+        <standardDeviation value="20931.9" lowerBound="18339.5" upperBound="24574.3" ci="0.95"/>
+        <outliers variance="0.66619" lowMild="0" lowSevere="0" highMild="2" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="78" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.77029e+07">
+        <!--All values in nano seconds-->
+        <mean value="290197" lowerBound="286373" upperBound="294409" ci="0.95"/>
+        <standardDeviation value="20442.8" lowerBound="17719.4" upperBound="23853" ci="0.95"/>
+        <outliers variance="0.655866" lowMild="0" lowSevere="0" highMild="3" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="82" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.95614e+07">
+        <!--All values in nano seconds-->
+        <mean value="290912" lowerBound="287115" upperBound="295023" ci="0.95"/>
+        <standardDeviation value="20178.6" lowerBound="17558.2" upperBound="23642.2" ci="0.95"/>
+        <outliers variance="0.645853" lowMild="0" lowSevere="0" highMild="3" highSevere="0"/>
+      </BenchmarkResults>
+      <BenchmarkResults name="86" samples="100" resamples="100000" iterations="1" clockResolution="23.2579" estimatedDuration="2.54798e+07">
+        <!--All values in nano seconds-->
+        <mean value="292293" lowerBound="288436" upperBound="296542" ci="0.95"/>
+        <standardDeviation value="20624.6" lowerBound="18166.2" upperBound="24539.6" ci="0.95"/>
+        <outliers variance="0.655912" lowMild="0" lowSevere="0" highMild="2" highSevere="0"/>
+      </BenchmarkResults>
+      <OverallResult success="true">
+        <StdOut>
+<XLabel value="$N$"></XLabel>
+<YLabel value="Mean time in "></YLabel>
+<Label value="uniform random words"></Label>
+<Data value="26"></Data>
+        </StdOut>
+      </OverallResult>
+    </TestCase>
+    <OverallResults successes="114401" failures="0" expectedFailures="0"/>
+    <OverallResultsCases successes="1" failures="0" expectedFailures="0"/>
+  </Group>
+  <OverallResults successes="114401" failures="0" expectedFailures="0"/>
+  <OverallResultsCases successes="1" failures="0" expectedFailures="0"/>
+</Catch>
